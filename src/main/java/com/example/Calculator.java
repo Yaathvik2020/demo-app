@@ -19,4 +19,9 @@ public class Calculator {
     public int subtract(int a, int b) {
         return a - b;
     }
+   public int subtractadd(int a, int b) {
+		a=a+b;
+		b=a-b;
+        return b;
+    }
 }
